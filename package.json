@@ -1,0 +1,29 @@
+{
+  "name": "node-poller-send-ir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eiriksm/node-poller-send-ir.git"
+  },
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eiriksm/node-poller-send-ir/issues"
+  },
+  "homepage": "https://github.com/eiriksm/node-poller-send-ir",
+  "dependencies": {
+    "request": "^2.65.0",
+    "serialport": "^2.0.2"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
+}
