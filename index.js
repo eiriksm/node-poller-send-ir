@@ -2,10 +2,11 @@
 var serialport = require('serialport');
 var request = require('request');
 var SerialPort = serialport.SerialPort;
+var debug = false;
 var sp = new SerialPort('/dev/tty.usbmodem1411', {
   baudrate: 9600,
   buffersize: 1
-});
+}, !debug);
 
 function sendIr() {
   console.log('Sending IR');
